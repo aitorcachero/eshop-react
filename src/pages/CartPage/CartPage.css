@@ -1,0 +1,147 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 2rem;
+}
+
+.cart-title {
+  margin-bottom: 2rem;
+}
+
+.cart-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  height: 100px;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2rem;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  /* box-shadow: 0 1px 2px rgb(0, 0, 0); */
+}
+
+.cart-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.input-count {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  text-align: center;
+}
+
+.cart-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  right: 3em;
+}
+
+.cart-total {
+  width: 200px;
+}
+
+.section-img {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-price {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-count {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-total {
+  width: 20%;
+}
+
+.section-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btn-cart {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: rgb(102, 102, 102);
+}
+
+.btns-modal-section-confirm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 50px;
+  margin-top: 2rem;
+}
+
+.div-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

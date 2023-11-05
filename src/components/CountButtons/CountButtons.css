@@ -1,0 +1,21 @@
+.btn-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.simbol {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.simbol-minus {
+  font-size: 34px;
+}

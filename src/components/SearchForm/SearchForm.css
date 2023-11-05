@@ -1,0 +1,49 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.form-filter {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-top: 4rem;
+  gap: 100px;
+}
+
+.select {
+  width: 200px;
+  height: 40px;
+}
+
+option {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.section-range {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.range {
+  width: 200px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .form-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 4rem;
+    gap: 20px;
+  }
+}

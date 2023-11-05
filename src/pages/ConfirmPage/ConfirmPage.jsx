@@ -34,7 +34,7 @@ export default function ConfirmPage() {
             Estos son los productos que has comprado:
           </p>
           <div className="info-container">
-            <p className="p-confirm">Imagen</p>
+            <p className="p-confirm"></p>
             <p className="p-confirm">Producto</p>
             <p className="p-confirm">Precio</p>
             <p className="p-confirm">Cantidad</p>

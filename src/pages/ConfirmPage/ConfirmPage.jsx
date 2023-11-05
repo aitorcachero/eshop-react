@@ -27,7 +27,9 @@ export default function ConfirmPage() {
     <div className="confirm-container">
       {productsBuyed && (
         <>
-          <h1 className="confirm-title">Compra realizada con éxito</h1>
+          <h1 className="confirm-title" style={{ marginTop: '2rem' }}>
+            Compra realizada con éxito
+          </h1>
           <p className="confirm-title-products">
             Estos son los productos que has comprado:
           </p>

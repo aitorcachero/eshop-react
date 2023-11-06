@@ -24,12 +24,12 @@ export default function CountButtons({ product }) {
   };
   return (
     <div className="btn-count">
-      <p className="simbol" onClick={addCount}>
-        +
-      </p>
-      <input type="text" value={count} className="input-count" />
       <p className="simbol simbol-minus" onClick={subtractCount}>
         -
+      </p>
+      <input type="text" value={count} className="input-count" />
+      <p className="simbol" onClick={addCount}>
+        +
       </p>
     </div>
   );
